@@ -17,10 +17,13 @@ Text Domain:  wporg
 Domain Path:  /languages
 */
 
+
+//if the path is not defined, someone is looking at the file that does not have permission to do so. If that is the case, kill the script.
 if ( !defined('ABSPATH') ) {
   die;
 }
 
+//define class and instantiate
 if ( !class_exists('LoginPlugin') ) {
   class LoginPlugin {
 

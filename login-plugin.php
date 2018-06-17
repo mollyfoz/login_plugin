@@ -25,7 +25,6 @@ if ( !class_exists('LoginPlugin') ) {
   class LoginPlugin {
 
     function __construct() {
-      add_action('init');
     }
 
     function activate() {
